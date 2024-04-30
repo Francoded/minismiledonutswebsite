@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from "./images/logo.heic";
+import logo from "./images/logo.jpg";
 
 export default function Board() {
   return (
