@@ -1,23 +1,11 @@
 import { useState } from "react";
 
+import logo from '../images/logo.heic';
+
 export default function Board() {
   return (
     <>
-      <div class="board-row">
-        <Square />
-        <Square />
-        <Square />
-      </div>
-      <div class="board-row">
-        <Square />
-        <Square />
-        <Square />
-      </div>
-      <div class="board-row">
-        <Square />
-        <Square />
-        <Square />
-      </div>
+      <img src={logo} alt="Logo" />;
     </>
   );
 }
