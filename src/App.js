@@ -5,7 +5,7 @@ import logo from "./images/logo.jpg";
 export default function Board() {
   return (
     <>
-      <img src={logo} alt="Logo" />;
+      <img src={logo} class="logo" alt="Logo" />;
     </>
   );
 }
