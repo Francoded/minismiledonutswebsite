@@ -7,9 +7,9 @@ export default function Board() {
     <>
     <div class="container">
       <div class="row">
-        <div class="col-4 col-sm-2"></div>
-        <img src={logo} class="col-4 col-sm-8" alt="Logo" />
-        <div class="col-4 col-sm-2"></div>
+        <div class="col-md-4 col-2"></div>
+        <img src={logo} class="col-md-4 col-8" alt="Logo" />
+        <div class="col-md-4 col-2"></div>
       </div>
     </div>
     </>
