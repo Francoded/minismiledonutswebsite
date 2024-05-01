@@ -5,7 +5,11 @@ import logo from "./images/logo.png";
 export default function Board() {
   return (
     <>
+    <div class="row">
+      <div class="col-4 col-s-3"></div>
       <img src={logo} class="logo" alt="Logo" />;
+      <div class="col-4 col-s-3"></div>
+    </div>
     </>
   );
 }
