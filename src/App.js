@@ -6,9 +6,9 @@ export default function Board() {
   return (
     <>
     <div class="row">
-      <div class="col-4 col-s-3"></div>
-      <img src={logo} class="logo" alt="Logo" />;
-      <div class="col-4 col-s-3"></div>
+      <div class="col-4 col-sm-3"></div>
+      <img src={logo} class="logo col-4 col-sm-6" alt="Logo" />;
+      <div class="col-4 col-sm-3"></div>
     </div>
     </>
   );
